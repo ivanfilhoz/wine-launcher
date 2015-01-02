@@ -13,7 +13,6 @@
 
 import sys
 import os.path
-import subprocess
 
 args = sys.argv
 
