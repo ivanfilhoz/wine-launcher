@@ -7,7 +7,7 @@ A simple launcher for Wine which converts regular Unix paths into Wine paths (Z:
 Put into your home folder (~) and edit/create a new .desktop file:
 
 ```
-Exec=python ~/wine-launcher.py App.exe %F [arg1] [...]
+Exec=~/wine-launcher.py App.exe %F [arg1] [...]
 ```
 
 Each Unix file path (/) will be converted into Wine path format (Z:\\)
